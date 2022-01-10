@@ -1,4 +1,5 @@
 # Bookmarklets
+Bookmarklets are small scripts that can be stored in a browser-bookmark 
 
 | Bookmarklet | About |
 | -- | -- |
