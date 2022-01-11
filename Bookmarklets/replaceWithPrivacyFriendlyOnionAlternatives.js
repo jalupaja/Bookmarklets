@@ -2,6 +2,8 @@ javascript: (function()
 {
     if (window.location.toString().includes("youtube"))
         window.location = window.location.toString().replace("https://www.youtube.com", "http://c7hqkpkpemu6e7emz5b4vyz7idjgdvgaaa3dyimmeojqbgpea3xqjoid.onion");
+    else if (window.location.toString().includes("youtu.be"))
+        window.location = window.location.toString().replace("https://youtu.be", "http://c7hqkpkpemu6e7emz5b4vyz7idjgdvgaaa3dyimmeojqbgpea3xqjoid.onion");
     else if (window.location.toString().includes("twitter"))
         window.location = window.location.toString().replace("https://twitter.com", "http://nitter7bryz3jv7e3uekphigvmoyoem4al3fynerxkj22dmoxoq553qd.onion");
     else if (window.location.toString().includes("reddit"))

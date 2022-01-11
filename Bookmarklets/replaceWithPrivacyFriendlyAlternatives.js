@@ -2,6 +2,8 @@ javascript: (function()
 {
     if (window.location.toString().includes("youtube"))
         window.location = window.location.toString().replace("https://www.youtube.com", "https://yewtu.be");
+    else if (window.location.toString().includes("youtu.be"))
+        window.location = window.location.toString().replace("https://youtu.be", "https://yewtu.be");
     else if (window.location.toString().includes("twitter"))
         window.location = window.location.toString().replace("https://twitter.com", "https://nitter.net");
     else if (window.location.toString().includes("reddit"))
