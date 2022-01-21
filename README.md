@@ -3,7 +3,7 @@ Bookmarklets are small scripts that can be stored in a browser-bookmark
 
 | Bookmarklet | About |
 | -- | -- |
-| [Replace with privacyfriendly alternativ frontends](Bookmarklets/replaceWithPrivacyFriendlyAlternatives.js) | Replace Youtube, Twitter, Reddit, Instagram, Wikipedia and Imgur with privacy friendly alternatives |
+| [Replace with privacyfriendly alternativ frontends](Bookmarklets/replaceWithPrivacyFriendlyAlternatives.js) | Replace Youtube, Twitter, Reddit, Instagram, Tiktok, Wikipedia and Imgur with privacy friendly alternatives |
 | [Replace with privacyfriendly alternativ frontends(onion versions)](Bookmarklets/replaceWithPrivacyFriendlyAlternatives.js) | Same as above but it uses .onion instances if available |
 
 ## Installation

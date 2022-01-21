@@ -10,11 +10,11 @@ javascript: (function()
         window.location = window.location.toString().replace("https://www.reddit.com", "http://qtpvyiaqhmwccxwzsqubd23xhmmrt75tdyw35kp43w4hvamsgl3x27ad.onion");
     else if (window.location.toString().includes("instagram"))
         window.location = window.location.toString().replace("https://www.instagram.com", "http://rlp5gt4d7dtkok3yaogocbcvrs2tdligjrxipsamztjq4wwpxzjeuxqd.onion");
+    else if (window.location.toString().includes("tiktok.com"))
+        window.location=window.location.toString().replace('tiktok.com', 'proxitok.herokuapp.com');
     else if (window.location.toString().includes("wikipedia"))
         window.location = window.location.toString().replace(/https:\/\/.?.?\.?wikipedia.org/,'https://wikiless.org');
     else if (window.location.toString().includes("imgur"))
         window.location=window.location.toString().replace('https://imgur.com','https://imgin.voidnet.tech');
-    else if (window.location.toString().includes("tiktok.com"))
-        window.location=window.location.toString().replace('tiktok.com', 'proxitok.herokuapp.com');
 })();
 // Add this code as a bookmark URL
