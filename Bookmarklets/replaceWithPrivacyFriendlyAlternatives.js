@@ -14,5 +14,7 @@ javascript: (function()
         window.location = window.location.toString().replace(/https:\/\/.?.?\.?wikipedia.org/,'https://wikiless.org');
     else if (window.location.toString().includes("imgur"))
         window.location=window.location.toString().replace('https://imgur.com','https://imgin.voidnet.tech');
+    else if (window.location.toString().includes("tiktok.com"))
+        window.location=window.location.toString().replace('tiktok.com', 'proxitok.herokuapp.com');
 })();
 // Add this code as a bookmark URL
