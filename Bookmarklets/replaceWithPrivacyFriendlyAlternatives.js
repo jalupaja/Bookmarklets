@@ -15,6 +15,6 @@ javascript: (function()
     else if (window.location.toString().includes("wikipedia"))
         window.location = window.location.toString().replace(/https:\/\/.?.?\.?wikipedia.org/,'https://wikiless.org');
     else if (window.location.toString().includes("imgur"))
-        window.location=window.location.toString().replace('https://imgur.com','https://imgin.voidnet.tech');
+        window.location=window.location.toString().replace('https://imgur.com','https://rimgo.bcow.xyz');
 })();
 // Add this code as a bookmark URL
