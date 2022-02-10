@@ -17,4 +17,4 @@ javascript: (function()
     else if (window.location.toString().includes("imgur"))
         window.location=window.location.toString().replace('https://imgur.com','https://rimgo.bcow.xyz');
 })();
-// Add this code as a bookmark URL
+/* Add this code as a bookmark URL */
